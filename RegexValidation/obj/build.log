@@ -1,0 +1,63 @@
+﻿  Restoring packages for C:\NTB\RegexValidation\RegexValidation.pcfproj...
+  Restoring packages for C:\NTB\RegexValidation\obj\PowerAppsTools_ntb\PowerAppsTools_ntb.cdsproj...
+  Generating MSBuild file C:\NTB\RegexValidation\obj\RegexValidation.pcfproj.nuget.g.props.
+  Generating MSBuild file C:\NTB\RegexValidation\obj\RegexValidation.pcfproj.nuget.g.targets.
+  Restore completed in 2.48 sec for C:\NTB\RegexValidation\RegexValidation.pcfproj.
+  Generating MSBuild file C:\NTB\RegexValidation\obj\PowerAppsTools_ntb\obj\PowerAppsTools_ntb.cdsproj.nuget.g.props.
+  Generating MSBuild file C:\NTB\RegexValidation\obj\PowerAppsTools_ntb\obj\PowerAppsTools_ntb.cdsproj.nuget.g.targets.
+  Restore completed in 2.55 sec for C:\NTB\RegexValidation\obj\PowerAppsTools_ntb\PowerAppsTools_ntb.cdsproj.
+  
+  > pcf-project@1.0.0 clean
+  > pcf-scripts clean "--noColor" "--buildMode" "development" "--outDir" "C:\\NTB\\RegexValidation\\out\\controls" "--buildSource" "MSBuild"
+  
+  [7:31:16 PM] [clean]  Initializing...
+  [7:31:16 PM] [clean]  Cleaning build outputs...
+  [7:31:16 PM] [clean]  Succeeded
+  Cleaning output directory: bin\Debug\, Intermediate directory: obj\Debug\ and Solution Packager working directory: obj\Debug\
+  Removing log file: bin\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_ntb.zip
+  
+  > pcf-project@1.0.0 build
+  > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "C:\\NTB\\RegexValidation\\out\\controls" "--buildSource" "MSBuild"
+  
+  [7:31:20 PM] [build]  Initializing...
+  [7:31:21 PM] [build]  Validating manifest...
+  [7:31:21 PM] [build]  Validating control...
+  [7:31:22 PM] [build]  Generating manifest types...
+  [7:31:22 PM] [build]  Compiling and bundling control...
+  [Webpack stats]:
+  Hash: adaa7b87b5b53e1a8c0c
+  Version: webpack 4.42.1
+  Time: 2265ms
+  Built at: 04/11/2021 7:31:25 PM
+      Asset      Size  Chunks             Chunk Names
+  bundle.js  10.3 KiB    main  [emitted]  main
+  Entrypoint main = bundle.js
+  [./NTBRegexValidation/index.ts] 6.14 KiB {main} [built]
+  [7:31:25 PM] [build]  Generating build outputs...
+  [7:31:25 PM] [build]  Succeeded
+  Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_ntb.zip
+  SolutionPackger CRM Solution Packaging Tool [Version 9.1.0.76]
+  c 2017 Microsoft Corporation.  All rights reserved
+  
+  
+  Packing C:\NTB\RegexValidation\obj\PowerAppsTools_ntb\obj\Debug\Metadata to bin\Debug\PowerAppsTools_ntb.zip
+  
+  Processing Component: Entities
+  Processing Component: Roles
+  Processing Component: Workflows
+  Processing Component: FieldSecurityProfiles
+  Processing Component: Templates
+  Processing Component: EntityMaps
+  Processing Component: EntityRelationships
+  Processing Component: OrganizationSettings
+  Processing Component: optionsets
+  Processing Component: CustomControls
+   - NTB.RegExValidationControl
+  Processing Component: SolutionPluginAssemblies
+  Processing Component: EntityDataProviders
+  
+  Unmanaged Pack complete.
+  
+  Solution: bin\Debug\PowerAppsTools_ntb.zip generated.
+  Solution Package Type: Unmanaged generated.
+  Completed intermiediate files clean up.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="NTB" constructor="RegExValidationControl" version="0.0.1" display-name-key="NTB_RegExValidationControl" description-key="Apply Regex Validation on Text Field" control-type="standard" api-version="1.2.3">
+    <type-group name="singleLineGroup">
+      <type>SingleLine.Text</type>
+      <type>SingleLine.Phone</type>
+      <type>SingleLine.Email</type>
+    </type-group>
+    <property name="ValueToProcess" display-name-key="Input Text" description-key="Input Value To Process" of-type-group="singleLineGroup" usage="bound" required="true"/>
+    <property name="RegexExpression" display-name-key="Regex Expression" description-key="Regex Expression To Process" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="UserNotificationText" display-name-key="Field Notification" description-key="Field Notification To User. Default Message will be Incorrect Format." of-type="SingleLine.TextArea" usage="input" required="false"/>
+    <resources>
+      <code path="bundle.js" order="1"/>
+      <css path="css/regexvalidation.css" order="1"/>
+    </resources>
+    <built-by name="pac" version="1.5.5"/>
+  </control>
+</manifest>

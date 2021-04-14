@@ -1,0 +1,2 @@
+C:\NTB\RegexValidation\obj\Debug\RegexValidation.pcfprojAssemblyReference.cache
+C:\NTB\RegexValidation\obj\Debug\RegexValidation.pcfproj.CoreCompileInputs.cache
